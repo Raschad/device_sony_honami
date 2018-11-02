@@ -1,0 +1,2 @@
+add_lunch_combo aicp_honami-eng
+add_lunch_combo aicp_honami-userdebug
