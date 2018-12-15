@@ -1,2 +1,2 @@
-add_lunch_combo aosp_honami-eng
-add_lunch_combo aosp_honami-userdebug
+add_lunch_combo dot_honami-eng
+add_lunch_combo dot_honami-userdebug
