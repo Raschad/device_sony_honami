@@ -17,6 +17,8 @@ $(call inherit-product, device/sony/rhine-common/rhine.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/sony/honami/overlay
 
+$(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
+
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml \
