@@ -12,8 +12,8 @@ PRODUCT_NAME := havoc_honami
 PRODUCT_DEVICE := honami
 
 # AICP Device Maintainer
-PRODUCT_BUILD_PROP_OVERRIDES += \
-        DEVICE_MAINTAINERS="Raschad"
+# PRODUCT_BUILD_PROP_OVERRIDES += \
+#       DEVICE_MAINTAINERS="Raschad"
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
