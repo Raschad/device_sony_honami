@@ -1,5 +1,5 @@
 # Inherit AICP common Phone stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 $(call inherit-product, device/sony/honami/full_honami.mk)
 
