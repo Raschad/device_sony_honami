@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
 TARGET_SYSTEM_PROP += device/sony/honami/system.prop
 
 # setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/honami/honami-vendor.mk)
