@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_honami.mk
+    $(LOCAL_DIR)/havoc_honami.mk
