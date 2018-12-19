@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_honami.mk
+    $(LOCAL_DIR)/lineage_honami.mk
