@@ -1,5 +1,5 @@
 # Inherit AICP common Phone stuff.
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 $(call inherit-product, device/sony/honami/full_honami.mk)
 
@@ -15,13 +15,13 @@ BUILD_FINGERPRINT := Sony/C6903/C6903:5.1.1/14.6.A.1.236/2031203603:user/release
 
 # PRODUCT_GMS_CLIENTID_BASE := android-sony
 
-PRODUCT_NAME := aicp_honami
+PRODUCT_NAME := lineage_honami
 PRODUCT_DEVICE := honami
 
 
 # AICP Device Maintainer
-PRODUCT_BUILD_PROP_OVERRIDES += \
-        DEVICE_MAINTAINERS="Raschad"
+# PRODUCT_BUILD_PROP_OVERRIDES += \
+#       DEVICE_MAINTAINERS="Raschad"
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
