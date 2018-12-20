@@ -5,3 +5,10 @@
     "branch": "p9.0"
   }
 ]
+[
+  {
+    "repository": "Raschad/device_sony_honami",
+    "target_path": "device/sony/honami",
+    "branch": "havoc-oreo"
+  }
+]
