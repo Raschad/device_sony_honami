@@ -19,7 +19,7 @@ include device/sony/rhine-common/BoardConfigCommon.mk
 #-include vendor/sony/honami/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := C6903,honami
+TARGET_OTA_ASSERT_DEVICE := C6902,C6903,C6906,C6943,honami
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/honami/include
 
