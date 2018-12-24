@@ -13,7 +13,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <!--<integer name="config_deviceHardwareKeys">96</integer>-->
+    <integer name="config_deviceHardwareKeys">96</integer>
 
         <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
