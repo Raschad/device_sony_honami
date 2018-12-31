@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
 
+# Touchscreen
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/configs/touch_fw_update.sh:system/etc/init.d/touch_fw_update.sh
+
 # Thermal manager
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/thermanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/thermanager.xml
