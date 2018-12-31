@@ -20,11 +20,11 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from honami device
-$(call inherit-product, device/sony/honami/honami.mk)
+$(call inherit-product, device/sony/togari/togari.mk)
 
 # Set those variables here to overwrite the inherited values.
 #PRODUCT_NAME := full_honami
 #PRODUCT_DEVICE := honami
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := Xperia Z1
+PRODUCT_MODEL := Xperia Z Ultra
