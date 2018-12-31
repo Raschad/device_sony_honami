@@ -19,11 +19,11 @@ include device/sony/rhine-common/BoardConfigCommon.mk
 #-include vendor/sony/honami/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := C6902,C6903,C6906,C6943,honami
+TARGET_OTA_ASSERT_DEVICE := C6803,C6833,togari
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/honami/include
+TARGET_SPECIFIC_HEADER_PATH += device/sony/togari/include
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/honami/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/togari/bluetooth
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := carbon_rhine_honami_row_defconfig
