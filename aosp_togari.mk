@@ -1,7 +1,7 @@
 # Inherit AICP common Phone stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
-$(call inherit-product, device/sony/honami/full_togari.mk)
+$(call inherit-product, device/sony/togari/full_togari.mk)
 
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=C6833
