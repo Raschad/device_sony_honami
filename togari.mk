@@ -15,7 +15,7 @@
 # Inherit the fusion-common definitions
 $(call inherit-product, device/sony/rhine-common/rhine.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/sony/honami/overlay
+DEVICE_PACKAGE_OVERLAYS += device/sony/togari/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -47,11 +47,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/thermanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/thermanager.xml
 
-TARGET_SYSTEM_PROP += device/sony/honami/system.prop
+TARGET_SYSTEM_PROP += device/sony/togari/system.prop
 
 # setup dalvik vm configs and hwui
-$(call inherit-product, device/sony/honami/phone-xxhdpi-2048-dalvik-heap.mk)
-$(call inherit-product, device/sony/honami/phone-xxhdpi-2048-hwui-memory.mk)
+$(call inherit-product, device/sony/togari/phone-xxhdpi-2048-dalvik-heap.mk)
+$(call inherit-product, device/sony/togari/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Include non-opensource parts
-$(call inherit-product, vendor/sony/honami/honami-vendor.mk)
+$(call inherit-product, vendor/sony/togari/togari-vendor.mk)
