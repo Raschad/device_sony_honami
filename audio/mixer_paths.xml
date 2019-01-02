@@ -752,7 +752,7 @@
         <ctl name="RX7 MIX1 INP1" value="RX1" />
         <ctl name="RX7 MIX1 INP2" value="RX2" />
         <!-- 67 % of 124 (range 0 - 124) Register: 0x2E7-->
-        <ctl name="RX7 Digital Volume" value="83" />
+        <ctl name="RX7 Digital Volume" value="93" />
         <!-- 100 % of 8 (range 0-8) Register: 0x1E0-->
         <ctl name="SPK DRV Volume" value="8" />
     </path>
@@ -1075,9 +1075,9 @@
         <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
         <ctl name="HPHL DAC Switch" value="1" />
         <!--75 % of 20 register: 0x1AE-->
-        <ctl name="HPHL Volume" value="15" />
+        <ctl name="HPHL Volume" value="18" />
         <!--75 % of 20 register: 0x1B4-->
-        <ctl name="HPHR Volume" value="15" />
+        <ctl name="HPHR Volume" value="18" />
         <!--66 % of 124 (rounded) register: 0x2B7-->
         <ctl name="RX1 Digital Volume" value="82" />
         <!--66 % of 124 (rounded) register: 0x2BF-->
