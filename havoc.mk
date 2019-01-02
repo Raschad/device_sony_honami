@@ -15,7 +15,7 @@ BUILD_FINGERPRINT := Sony/C6903/C6903:5.1.1/14.6.A.1.236/2031203603:user/release
 
 # PRODUCT_GMS_CLIENTID_BASE := android-sony
 
-PRODUCT_NAME := aosp_honami
+PRODUCT_NAME := havoc_honami
 PRODUCT_DEVICE := honami
 
 
