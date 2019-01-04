@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_honami.mk
+    $(LOCAL_DIR)/dot_honami.mk
