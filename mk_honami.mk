@@ -1,5 +1,5 @@
 # Inherit AICP common Phone stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 $(call inherit-product, device/sony/honami/full_honami.mk)
 
@@ -15,7 +15,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_GMS_CLIENTID_BASE := android-sony
 
-PRODUCT_NAME := aosp_honami
+PRODUCT_NAME := mk_honami
 PRODUCT_DEVICE := honami
 
 
