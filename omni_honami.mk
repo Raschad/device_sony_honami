@@ -26,3 +26,6 @@ PRODUCT_DEVICE := honami
 # Boot animation
 # TARGET_SCREEN_HEIGHT := 1920
 # TARGET_SCREEN_WIDTH := 1080
+
+# Inherit OmniROM parts
+$(call inherit-product, vendor/omni/config/gsm.mk)
