@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# SELinux (must be specified before including common mk files)
+BOARD_USE_ENFORCING_SELINUX := true
+
 # inherit from the common rhine definitions
 include device/sony/rhine-common/BoardConfigCommon.mk
 
