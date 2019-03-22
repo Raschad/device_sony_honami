@@ -9,11 +9,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="C6903-user 5.1.1 14.6.A.1.23
 
 BUILD_FINGERPRINT := Sony/C6903/C6903:5.1.1/14.6.A.1.236/2031203603:user/release-keys
 
-TARGET_GAPPS_ARCH := arm
+#TARGET_GAPPS_ARCH := arm
 TARGET_DENSITY := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
 
-$(call inherit-product, vendor/gapps/config.mk)
+#$(call inherit-product, vendor/gapps/config.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-sony
 
