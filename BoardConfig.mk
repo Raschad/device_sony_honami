@@ -25,6 +25,12 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/honami/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/honami/bluetooth
 
+# SELinux
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
+
 # Kernel properties
 TARGET_KERNEL_CONFIG := lineageos_rhine_honami_row_defconfig
 
