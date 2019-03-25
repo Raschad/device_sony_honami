@@ -25,12 +25,6 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/honami/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/honami/bluetooth
 
-# SELinux
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
-
-# DT2W
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
-
 # Kernel properties
 TARGET_KERNEL_CONFIG := lineageos_rhine_honami_row_defconfig
 
@@ -45,3 +39,9 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
 
 #Recovery
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
+
+# SELinux
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/input1/wakeup_gesture"
