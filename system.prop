@@ -17,3 +17,7 @@ ro.semc.product.device=C69
 ro.semc.version.cust=1276-7951
 ro.semc.version.cust_revision=R2D
 
+# Memory optimizations
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.am.reschedule_service=true \
+    ro.vendor.qti.sys.fw.bservice_enable=true
