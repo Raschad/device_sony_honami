@@ -39,6 +39,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
+# Properties
+$(call inherit-product, device/sony/honami/system_prop.mk
+
 # Sensors
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
@@ -46,12 +49,6 @@ PRODUCT_COPY_FILES += \
 # Thermal manager
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/thermanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/thermanager.xml
-
-TARGET_SYSTEM_PROP += device/sony/honami/system.prop
-
-# setup dalvik vm configs and hwui
-$(call inherit-product, device/sony/honami/phone-xxhdpi-2048-dalvik-heap.mk)
-$(call inherit-product, device/sony/honami/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/honami/honami-vendor.mk)
